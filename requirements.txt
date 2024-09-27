@@ -1,4 +1,4 @@
-setuptools==7.5.1.0
+setuptools==75.1.0
 matplotlib==3.7.1
 pandas==2.2.3
 seaborn==0.13.2
