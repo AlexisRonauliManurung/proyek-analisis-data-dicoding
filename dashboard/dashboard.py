@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 
 # Load the data
-main_data_df = pd.read_csv("/content/drive/MyDrive/data/main_data.csv")
+main_data_df = pd.read_csv("dashboard/main_data.csv")
 main_data_df['order_purchase_timestamp'] = pd.to_datetime(main_data_df['order_purchase_timestamp'])
 
 # Sidebar for navigation
